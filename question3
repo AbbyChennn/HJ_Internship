@@ -1,0 +1,13 @@
+<script>
+	var num = 180;
+  $(function(){
+    trans('img,div,span');								//灵活增删dom元素
+  });
+
+	function trans(obj){									//定义函数
+		$(obj).click(function(){
+      $(obj).css('transform','rotateY('+num+'deg)');	//为dom元素添加css样式
+				num += 180;										//旋转角度改变
+    	})
+		}
+</script>
