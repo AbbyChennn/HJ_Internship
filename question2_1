@@ -1,0 +1,8 @@
+<script>
+  $(function(){
+    $('img').css('transition','transform 1s ease-out');
+    $('img').click(function(){
+      $(this).css('transform','rotateY(180deg)');
+    })
+  })
+</script>
