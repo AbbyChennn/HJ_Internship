@@ -1,0 +1,8 @@
+<script>
+  $(function(){
+    $('img').css('transition','transform 1s ease-out');//logo的css更改
+    $('img').click(function(){
+      $(this).css('transform','rotateY(180deg)');//logo点击翻转
+    })
+  })
+</script>
