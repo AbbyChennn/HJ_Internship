@@ -1,2 +1,0 @@
-# HJ_Internship
-Abby
