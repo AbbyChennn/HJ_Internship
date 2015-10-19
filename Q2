@@ -1,8 +1,9 @@
 <script>
   $(function(){
-    $('img').css('transition','transform 1s ease-out');//logo的css更改
-    $('img').click(function(){
-      $(this).css('transform','rotateY(180deg)');//logo点击翻转
+    $('.top-bar .logo a').attr('href','javascript:;');//禁止页面刷新
+    $('.top-bar .logo img').css('transition','transform 2s ease-out');//logo的css更改
+    $('.top-bar .logo img').click(function(){
+      $(this).css('transform','rotateY(180deg)');//点击logo翻转
     })
   })
 </script>
